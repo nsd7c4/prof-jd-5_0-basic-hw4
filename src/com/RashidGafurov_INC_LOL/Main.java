@@ -28,7 +28,7 @@ public class Main {
         //Assignment 3
         int firstYear = 2022 - 200;
         int lastYear = 2022 + 100;
-        for (i=firstYear; i < lastYear; i++) {
+        for (i = firstYear; i < lastYear; i++) {
             while (i % 79 == 0 && i < lastYear) {
                 System.out.println(i);
                 i += 79;
