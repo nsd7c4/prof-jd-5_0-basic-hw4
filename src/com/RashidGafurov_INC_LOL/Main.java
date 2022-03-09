@@ -28,11 +28,8 @@ public class Main {
         //Assignment 3
         int firstYear = 2022 - 200;
         int lastYear = 2022 + 100;
-        for (i = firstYear; i < lastYear; i++) {
-            while (i % 79 == 0 && i < lastYear) {
+        for (i = (firstYear/79+1)*79; i < lastYear; i+=79) {
                 System.out.println(i);
-                i += 79;
-            }
         }
     }
 }
